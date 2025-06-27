@@ -8,14 +8,7 @@ function trailingZeros(n) {
   return count;
 }
 
+
+
 const input = prompt("Enter a number");
-const num = parseInt(input);
-if (!isNaN(num) && num >= 0) {
-  alert(trailingZeros(num));
-} else {
-  alert("Please enter a valid non-negative integer.");
-}
-}
-
-
-
+alert(trailingZeros(input));
